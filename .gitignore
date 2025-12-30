@@ -1,0 +1,17 @@
+# --- EDA Tool Outputs ---
+# Ignore compilation directories and log files
+work/
+rtl_work/
+*.log
+*.jou
+*.pb
+
+# --- Simulation Waveforms ---
+# These can be Gigabytes in size; never upload them
+*.vcd
+*.fsdb
+*.wlf
+
+# --- Tool Specific Junk ---
+.Xil/
+*.vdb/
