@@ -15,3 +15,13 @@ rtl_work/
 # --- Tool Specific Junk ---
 .Xil/
 *.vdb/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# --- Data Management ---
+# Ignore generic text files, but KEEP our golden reference data
+*.txt
+!model/python/gold_data/*.txt
